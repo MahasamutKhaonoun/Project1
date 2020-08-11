@@ -1,7 +1,17 @@
 #include <stdio.h>
-void main()
+int main()
 {
-	printf("asdafagagag\n");
-	printf("132155");
-	printf("13");
+	int a;
+	printf("Hello World\n");
+	printf("test\n");
+	printf("Input your number = ");
+	scanf_s("%d", &a);
+	printf("Your number is %d\n", a);
+	for (int i = 0;i < 10;i++)
+	{
+		printf("%d\n",i);
+	}
+	return 0;
+
+
 }
